@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://maci-kb24.github.io/Relax-App/",
   "dependencies": {
     "node-sass": "^4.14.1"
   },
   "devDependencies": {},
   "scripts": {
-    "scss": "node-sass --watch src/scss -o public/css"
+    "scss": "node-sass --watch src/scss -o public/css",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "",
   "license": "ISC"
