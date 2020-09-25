@@ -5,6 +5,7 @@
   "main": "index.js",
   "homepage": "https://maci-kb24.github.io/Relax-App/",
   "dependencies": {
+    "gh-pages": "^3.1.0",
     "node-sass": "^4.14.1"
   },
   "devDependencies": {},
